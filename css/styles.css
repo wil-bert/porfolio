@@ -1,0 +1,30 @@
+.image{
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    padding: 15px;
+    border: 15px black;
+    margin: 15px;
+    background-color: darkgray;
+}
+.body{
+    text-align: center;
+}
+/* Set the background color of body to tan */
+body {
+    background-color:gray;
+  }
+
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 992px) {
+    body {
+      background-color: rgba(170, 87, 87, 0.815);
+    }
+  }
+
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: cornflowerblue;
+    }
+  }
