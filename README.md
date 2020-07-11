@@ -9,6 +9,10 @@ This contains my first project at Moringa School. In side it are my basic detail
 
 This is a link to my site [https://github.com/wil-bert/porfolio.git]
 
+## Technologies used
+* HTML to create the website.
+* CSS to style my work.
+
 ## Support and contact
 Incase of any issues, contact me at; Cel-[0700643549] or email- [ianwilbuts@gmail.com].
 
