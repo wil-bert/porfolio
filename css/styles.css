@@ -8,9 +8,12 @@ h1{
 .image{
   width: 50%;
   height: 50%;
-  border: 5cm;
+  text-align: center;
   background-color: black;
-  padding: 2cm;
+  padding: 1cm;
+  border: 0cm;
+  margin: 0cm;
+
 }
 .contact{
   font-style: italic;
