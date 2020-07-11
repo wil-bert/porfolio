@@ -1,17 +1,37 @@
 h1{
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
-}
-.body{
-  background-color: gray;
+  font-size: xx-large;
 }
 .image{
   width: 50%;
   height: 50%;
-  border: 5cm;
+  text-align: center;
   background-color: black;
-  padding: 2cm;
+  padding: 1cm;
+  border: 0cm;
+  margin: 0cm;
+  float: right;
+
 }
 .contact{
   font-style: italic;
+}
+/* Set the background color of body to grey */
+body {
+  background-color: gray;
+}
+
+/* On screens that are 992px or less, set the background color to tan*/
+@media screen and (max-width: 992px) {
+  body {
+    background-color:tan;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: cornflowerblue;
+  }
 }
