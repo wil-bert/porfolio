@@ -12,3 +12,9 @@ h1{
   background-color: black;
   padding: 2cm;
 }
+.contact{
+  font-style: italic;
+}
+strong{
+  color: blue;
+}
