@@ -1,3 +1,17 @@
 h1{
   text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.body{
+  background-color: gray;
+}
+.image{
+  width: 50%;
+  height: 50%;
+  border: 5cm;
+  background-color: black;
+  padding: 2cm;
+}
+.contact{
+  font-style: italic;
 }
