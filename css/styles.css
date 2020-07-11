@@ -3,5 +3,9 @@ h1{
 }
 .body{
   background-color: gray;
-  text-align: right;
+}
+.image{
+  width: 50%;
+  height: 50%;
+  border: 5cm;
 }
