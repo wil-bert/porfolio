@@ -1,37 +1,64 @@
-h1{
+body{
+  margin: 0;
+}
+.home{
+  margin: 0;
+  background-image: url("/images/coding.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.navbar{
+  color: rgb(119, 103, 103);
+  display: flex;
+  font-size: larger;
+}
+.navbar li{
+  list-style-type: none;
+  display: inline-block;
+  padding-inline-end: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+.navbar li:hover{
+  color: rgb(170, 3, 3);
+}
+.jumbotron{
+  background-color: rgba(5, 5, 5, 0.938);
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 30px;
+  display: block;
   text-align: center;
+  padding-bottom: 10px;
+
+}
+
+.jumbotron h1{
+  text-align: center;
+  color: rgb(182, 8, 8);
   font-family: 'Times New Roman', Times, serif;
-  font-size: xx-large;
+  padding-top: 10px;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
-.image{
-  width: 50%;
-  height: 50%;
+.jumbotron h2{
   text-align: center;
-  background-color:brown;
-  padding: 1cm;
-  border: 0cm;
-  margin: 0cm;
-  float: right;
-
-}
-.contact{
-  font-style: italic;
-}
-/* Set the background color of body to grey */
-body {
-  background-color: gray;
+  color: rgb(107, 97, 98);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* On screens that are 992px or less, set the background color to tan*/
-@media screen and (max-width: 992px) {
-  body {
-    background-color:tan;
-  }
-}
 
-/* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 600px) {
-  body {
-    background-color: cornflowerblue;
-  }
+
+/******** contact *******/
+.container h1{
+  text-align: center;
+  font-size: 70px;
 }
