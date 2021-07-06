@@ -5,7 +5,7 @@ body{
 .home{
   background-image: url("/images/coding.jpg");
   background-size: cover;
-  height: 100vh;
+  height: 70vh;
 
 }
 .navbar{
@@ -34,6 +34,7 @@ body{
   display: block;
   text-align: center;
   padding-bottom: 10px;
+  padding-top:10px ;
 
 }
 
